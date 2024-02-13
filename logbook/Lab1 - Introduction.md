@@ -7,12 +7,12 @@
 
 ## Workspace Setup
 
-First I created `cc.m`, a utility file co close everything. I use this file in all workspaces as a time saver.
+First I created `cc.m`, a utility file to close everything. I use this file in all workspaces as a time saver, and it features in a lot of the code in all these labs.
 
 ```matlab
->> close all
->> clear all
->> clc
+close all
+clear all
+clc
 ```
 
 ## Image
@@ -24,7 +24,7 @@ Once the image data are downloaded, the image can be loaded and displayed:
 >> imshow(clown)
 ```
 
-![Clown](Images/Untitled.png)
+![Untitled](img/Untitled.png)
 
 ## Rotate
 
@@ -106,7 +106,7 @@ end
 
 When called as `Rotate(image, angle (degrees))`, the function will rotate matrix representations of images:
 
-![Rotated](Images/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 ## Shear
 
@@ -146,4 +146,4 @@ end
 
 When called as `Shear(image, 1, 0)`, the function will shear matrix representations of images:
 
-![Sheared](Images/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
